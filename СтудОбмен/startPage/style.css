@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Rosario', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    width: 1680px;
+    height: 1588px;
+    
+    background: #EFEFEF;
+}
+
+header {
+    width: 1680px;
+    height: 70px;  
+    display: flex;
+    align-items: center;
+    
+
+    background: #ECAD73;  
+}
+
+.header__button1 {
+    padding-left: 50px;
+
+    width: 100px;
+    height: 30px;
+    background: #ECAD73;
+    cursor: pointer;
+    border: none;
+
+    width: 100px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 40px;
+    margin-left: 15px;
+
+    color: #FFFFFF;    
+}
+
+.header__button2 {
+    width: 150px;
+    height: 30px;
+    background: #ECAD73;
+    cursor: pointer;
+    border: none;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 375px;
+
+    color: #FFFFFF;
+}
+
+.header__h1 {
+    padding-left: 50px;
+
+    width: 202px;
+    height: 41px;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    margin-right: 385px;
+    
+    color: #FFFFFF;    
+}
+
+.header__button3 {
+    padding-left: 35px;
+
+    width: 170px;
+    height: 30px;
+    background: #ECAD73;
+    cursor: pointer;
+    border: none;
+
+    width: 46px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 40px;
+    
+    color: #FFFFFF;
+}
+
+.header__button4 {
+    padding-left: 60px;
+    text-decoration: none;
+
+    width: 170px;
+    height: 30px;
+    background: #ECAD73;
+    cursor: pointer;
+    border: none;
+
+    width: 121px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+.title {
+    width: 1250px;
+    padding: 60px 185px 20px 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__button {
+    width: 400px;
+    height: 85px;
+    background: #ECAD73;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    cursor: pointer;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+.title__h2 {
+    width: 700px;
+    height: 280px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    
+    color: #ECAD73;        
+}
+
+.wrapper {
+    padding: 0 40px 0 60px;
+}
+
+.wrapper__div {
+    width: 1560px;
+    height: 295px;
+    margin-bottom: 50px;
+    background: #E1E1E1;
+    border-radius: 15px;
+}
+
+.div__h3 {
+    width: 400px;
+    height: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 29px;
+
+    color: #000000;    
+}
+
+.div__p {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    
+    color: rgba(0, 0, 0, 0.44);
+    
+}
+
+.div__div2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+
+.div2__p {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.div2__button {
+    width: 200px;
+    height: 60px;
+    background: #ECAD73;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    border: none;
+    cursor: pointer;
+
+    color: #FFFFFF;  
+}
+
+footer {
+    width: 1680px;
+    height: 230px;
+    left: 0px;
+    top: 1415px;
+
+    background: #464646;
+}
+
+.footer__button1 {
+    padding-left: 65px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+
+    width: 170px;
+    height: 30px;
+    background: #464646;
+    cursor: pointer;
+    border: none;
+
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+  
+    color: #ECAD73;
+}
+
+.footer__div1, .footer__div2 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__button2 {
+    width: 170px;
+    height: 30px;
+    background: #464646;
+    cursor: pointer;
+    border: none;
+
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer__button3 {
+    width: 170px;
+    height: 30px;
+    background: #464646;
+    cursor: pointer;
+    border: none;
+
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.footer__p {
+    padding-right: 60px;
+    padding-top: 15px;
+
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    
+    color: #9B9898;
+    
+}
